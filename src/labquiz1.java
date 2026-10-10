@@ -21,4 +21,5 @@ public class labquiz1 {
         } catch (NumberFormatException e) {
             System.err.println("Invalid number format! Please enter digits only.");
         }
-    }}
+    }
+}

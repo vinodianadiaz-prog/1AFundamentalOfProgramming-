@@ -2,7 +2,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-
 public class fifthJava {
     public static void main(String[] args) {
         BufferedReader datain = new BufferedReader(new InputStreamReader(System.in));

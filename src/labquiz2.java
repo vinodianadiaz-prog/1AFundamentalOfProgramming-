@@ -7,8 +7,8 @@ public class labquiz2{
         double soysauce = 0.5;
         double vinegar = 0.33;
         double kilo = 1.5;
-        double result = kilo/soysauce;
-        double result2 = kilo/vinegar;
+        double result = kilo*soysauce;
+        double result2 = kilo*vinegar;
 
 
         Scanner sc = new Scanner(System.in);
@@ -20,8 +20,8 @@ public class labquiz2{
         kilo = sc.nextDouble();
 
 
-        System.out.println("The ratio of soy sauce for " + kilo  + "kg is = " + result);
-        System.out.println("The ratio of vinegar for " + kilo  + "kg is = "  + result2);
+        System.out.println("The ratio of soy sauce for " + kilo  + "kg is = " + result + "cups");
+        System.out.println("The ratio of vinegar for " + kilo  + "kg is = "  + result2 + "cups");
 
 
     }
